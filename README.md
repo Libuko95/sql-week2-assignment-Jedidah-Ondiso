@@ -1,6 +1,8 @@
 # sql-week2-assignment-Jedidah-Ondiso
 Name: Jedida Ondiso Libbuko
+
 Date: 27-07-2026
+
 Database: PostgreSQL
 
 What this covers
