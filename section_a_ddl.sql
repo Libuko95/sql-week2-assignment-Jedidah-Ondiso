@@ -5,9 +5,7 @@ create schema greenwood_academy;
 
 set search_path to  greenwood_academy;
 
-===========================================================
--- students table
-===========================================================
+--- students table
 create table greenwood_academy.students(
 student_id INT PRIMARY key,
 first_name VARCHAR(50) NOT null,
@@ -18,9 +16,9 @@ class VARCHAR(10),
 city VARCHAR(50) 
 );
 
-===========================================================
- subjects table 
-===========================================================
+
+--- subjects table 
+
 create table greenwood_academy.subject(
 subject_id INT PRIMARY key,
 subject_name VARCHAR(100) NOT null unique,
@@ -29,10 +27,8 @@ teacher_name VARCHAR(100),
 credits INT 
 );
 
+--- Exam_results table 
 
-==============================================================
--- Exam_results table 
-===============================================================
 create table greenwood_academy.exam_results(
 result_id INT PRIMARY key,
 student_id INT NOT null,
@@ -42,4 +38,3 @@ exam_date DATE,
 grade VARCHAR(2) 
 );
 
-==================================================================================================
