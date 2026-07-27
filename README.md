@@ -19,5 +19,7 @@ Section E: COUNT
 
 Section F: CASE WHEN
 
+
 Article link
+
 https://dev.to/jedidah_ondiso_887753d76e/building-greenwood-academy-database-using-postgresql-k3
